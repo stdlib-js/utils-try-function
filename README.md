@@ -172,13 +172,10 @@ function done( str ) {
     }
 }
 
-var out;
-var f;
-
 // Synchronous...
-f = wrap( beep );
+var f = wrap( beep );
 
-out = f( 'boop' );
+var out = f( 'boop' );
 console.log( out );
 // => 'beep boop'
 
