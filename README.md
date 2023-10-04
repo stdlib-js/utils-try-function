@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import wrap from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-try-function@deno/mod.js';
+import wrap from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-try-function@v0.1.1-deno/mod.js';
 ```
 
 #### wrap( fcn )
@@ -138,7 +138,7 @@ out = f( true, null, done );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import wrap from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-try-function@deno/mod.js';
+import wrap from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-try-function@v0.1.1-deno/mod.js';
 
 function beep( str ) {
     if ( typeof str !== 'string' ) {
