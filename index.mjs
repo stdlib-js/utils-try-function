@@ -1,0 +1,4 @@
+// Copyright (c) 2024 The Stdlib Authors. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+/// <reference types="./index.d.ts" />
+import r from"https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-function@v0.1.1-esm/index.mjs";import t from"https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-error@v0.1.1-esm/index.mjs";import e from"https://cdn.jsdelivr.net/gh/stdlib-js/string-format@v0.1.1-esm/index.mjs";function n(n,s){var i;if(!r(n))throw new TypeError(e("invalid argument. Must provide a function. Value: `%s`.",n));return i=arguments.length>1?s:null,o;function o(){var r,e,s;for(e=arguments.length,r=new Array(e),s=0;s<e;s++)r[s]=arguments[s];try{return n.apply(i,r)}catch(r){return t(r)?r:"object"==typeof r?new Error(JSON.stringify(r)):new Error(r.toString())}}}export{n as default};
+//# sourceMappingURL=index.mjs.map
