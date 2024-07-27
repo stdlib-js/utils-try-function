@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/utils-try-function",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Wrap a function in a try/catch block.",
   "license": "Apache-2.0",
   "author": {
@@ -42,12 +42,12 @@
   "dependencies": {
     "@stdlib/assert-is-error": "^0.2.1",
     "@stdlib/assert-is-function": "^0.2.1",
-    "@stdlib/string-format": "^0.2.1",
-    "@stdlib/error-tools-fmtprodmsg": "^0.2.1"
+    "@stdlib/string-format": "^0.2.2",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
   },
   "devDependencies": {
     "@stdlib/random-base-randu": "^0.2.1",
-    "@stdlib/utils-noop": "^0.2.1",
+    "@stdlib/utils-noop": "^0.2.2",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
