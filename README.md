@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import wrap from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-try-function@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/utils-try-function/tags). For example,
+
+```javascript
 import wrap from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-try-function@v0.2.2-esm/index.mjs';
 ```
 
@@ -143,7 +148,7 @@ out = f( true, null, done );
 <body>
 <script type="module">
 
-import wrap from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-try-function@v0.2.2-esm/index.mjs';
+import wrap from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-try-function@esm/index.mjs';
 
 function beep( str ) {
     if ( typeof str !== 'string' ) {
