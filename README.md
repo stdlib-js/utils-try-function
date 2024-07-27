@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import wrap from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-try-function@esm/index.mjs';
+import wrap from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-try-function@v0.2.2-esm/index.mjs';
 ```
 
 #### wrap( fcn )
@@ -143,7 +143,7 @@ out = f( true, null, done );
 <body>
 <script type="module">
 
-import wrap from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-try-function@esm/index.mjs';
+import wrap from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-try-function@v0.2.2-esm/index.mjs';
 
 function beep( str ) {
     if ( typeof str !== 'string' ) {
