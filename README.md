@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import wrap from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-try-function@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/utils-try-function/tags). For example,
+
+```javascript
 import wrap from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-try-function@v0.2.3-deno/mod.js';
 ```
 
@@ -138,7 +143,7 @@ out = f( true, null, done );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import wrap from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-try-function@v0.2.3-deno/mod.js';
+import wrap from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-try-function@deno/mod.js';
 
 function beep( str ) {
     if ( typeof str !== 'string' ) {
